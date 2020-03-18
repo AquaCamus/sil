@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/style.css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Sistema Integrado de Lojas - SIL - Cadastro de Empresas</title>
+</head>
+<body>
+
+	<header>
+		<nav>
+			<!-- Aqui vai o Meni -->
+		</nav>
+	</header>
+
+	
+	<div class="shadow p-3 mb-5 bg-white rounded w-75 p-3 mx-auto mt-1">
+		<form>
+
+			<fieldset>
+				<legend>Dados da Empresa</legend>
+				<div class="form-row">
+					<div class="form-group col-md-4">
+						<label for="cnpj">CNPJ</label> <input type="text"
+							class="form-control" id="cnpj" placeholder="00.000.000/0000-00" />
+					</div>
+					<div class="form-group col-md-4">
+						<label for="inscEstadual">Inscrição Estdual</label> <input
+							type="text" class="form-control" id="inscEstadual"
+							disabled="disabled" />
+					</div>
+					<div class="form-group col-md-4">
+						<label for="innsMunicipal">Inscrição Municipal</label> <input
+							type="text" class="form-control" id="innsMunicipal"
+							disabled="disabled" />
+					</div>
+				</div>
+				<div class="form-row">
+					<div class="form-group col-md-6">
+						<label for="nomeEmpresa">Nome/Razão Social</label> <input
+							type="text" class="form-control" id="nomeEmpresa"
+							placeholder="Ex: Companhia de Canetas Compactor S/A" />
+					</div>
+					<div class="form-group col-md-6">
+						<label for="nomeFantasia">Nome Fantasia</label> <input type="text"
+							class="form-control" id="nomeFantasia"
+							placeholder="Canetas Compactor" />
+					</div>
+				</div>
+			</fieldset>
+
+			<fieldset>
+				<legend>Dados de Contato</legend>
+				<div class="form-row">
+					<div class="form-group col-md-1">
+						<label for="dddPrincipal">DDD</label> <input
+							type="text" class="form-control" id="dddPrincipal"
+							placeholder="00" />
+					</div>
+					<div class="form-group col-md-3">
+						<label for="telPrincipal">Telefone Principal</label> <input
+							type="text" class="form-control" id="telPrincipal"
+							placeholder="0000-0000" />
+					</div>
+					<div class="form-group col-md-1">
+						<label for="dddCelular">DDD</label> <input
+							type="text" class="form-control" id="dddCelular"
+							placeholder="00" />
+					</div>
+					<div class="form-group col-md-3">
+						<label for="telCelular">Telefone Celular</label> <input
+							type="text" class="form-control" id="telCelular"
+							placeholder="0 0000-0000" />
+					</div>
+					<div class="form-group col-md-1">
+						<label for="dddOutro">DDD</label> <input
+							type="text" class="form-control" id="dddOutro"
+							placeholder="00" />
+					</div>
+					<div class="form-group col-md-3">
+						<label for="outroTelefone">Outro Telefone?</label> <input
+							type="text" class="form-control" id="outroTelefone"
+							placeholder="0 0000-0000 / 0000-0000" />
+					</div>
+				</div>
+				<div class="form-row">
+					<div class="form-group col-md-4" >
+						<label for="nomeContato">Nome Contato</label>
+						<input type="text" class="form-control" id="nomeContato"  placeholder="Ex: Maria das Couves"/>
+					</div>
+					<div class="form-group col-md-4" >
+						<label for="email">E-Mail</label>
+						<input type="email" class="form-control" id="email"  placeholder="Ex: contato@minhaempresa.com.br"/>
+					</div>
+					<div class="form-group col-md-4" >
+						<label for="site">Site</label>
+						<input type="text" class="form-control" id="site"  placeholder="Ex: www.minhaempresa.com.br"/>
+					</div>
+				</div>
+			</fieldset>
+			<button type="submit" class="btn btn-primary">Sign in</button>
+		</form>
+
+	</div>
+	
+</body>
+</html>
